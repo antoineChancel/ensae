@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  ensae:
+    build:
+      context: .
+    volumes:
+      - .:/ensae
+    ports:
+    - 8888:8888
