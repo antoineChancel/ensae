@@ -97,3 +97,8 @@ services:
       - zookeep1
       - zookeep2
       - zookeep3
+  
+  pyspark:
+    image: jupyter/pyspark-notebook
+    ports:
+      - 8888:8888
